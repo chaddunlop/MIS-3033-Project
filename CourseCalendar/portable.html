@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=1200" />
+    <title>Fathom.js - Portable Test</title>
+    <link href="../fathom.sample.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        body {
+            background-color: orange;
+        }
+
+        #content {
+            background-color: #fff;
+            margin: 0 auto;
+            padding: 50px 20px;
+            width: 960px;
+        }
+
+        .fathom-container {
+            border: 1px solid #d0d0d0;
+            height: 600px;
+            margin: 0 auto;
+            overflow: auto;
+            position: relative;
+            width: 800px;
+        }
+
+        div.slide {
+            height: 400px;
+            width: 600px;
+        }
+    </style>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="fathom.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$("#presentation").fathom();
+		});
+    </script>
+</head>
+<body>
+    <div id="content">
+        <div id="presentation">
+            <div class="slide">
+                <h1>Fathom.js</h1>
+                <img src="fathomimg.jpg" />
+                <p>For my presentation I decided to use the JavaScript framework called Fathom.js</p>
+            </div>
+            
+            <div class="slide">
+                <h1>What makes Fathom.js special?</h1>
+                <p>Created by Mark Dalgeish there are many reasons that sets Fathom.js apart from other frameworks. To name a few:
+                <ul>
+                    <li>
+                        Efficient execution, driven by a query planner that understands inter-rule dependencies
+                    </li>
+                    <li>
+                        Lazy execution, so you can have arbitrarily large rulesets with impunity
+                    </li>
+                    
+                    <li>
+                        Caching to keep from re-deriving intermediate results between queries
+                    </li>
+                    <li>
+                        Clustering based on a notion of DOM node distance influenced by structural similarity
+                    </li>
+                    <li>
+                        Many handy utils from which to compose scoring callbacks
+                    </li>
+                </ul>
+                </p>
+                
+            </div>
+            <div class="slide">
+                <h1>Why I used Fathom.js:</h1>
+                <ul>
+                    <li>Easy to use</li>
+                    <li>Fair amount of resources</li>
+                    <li>Compatability</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h1>Slide 4</h1>
+            </div>
+            <div class="slide">
+                <h1>Slide 5</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
