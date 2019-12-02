@@ -7,10 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseCalendar", "CourseCal
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C31AE662-4A2F-4358-8A4C-0E0A44AE8326}"
 	ProjectSection(SolutionItems) = preProject
+		calendar.css = calendar.css
 		calendar.html = calendar.html
 		fathom.js = fathom.js
 		jquery.min.js = jquery.min.js
-		portable.html = portable.html
 		presentation.css = presentation.css
 		presentation.html = presentation.html
 	EndProjectSection
